@@ -1,0 +1,26 @@
+.upload-pic-container
+  width: 100px
+  height: 100px
+  position: relative
+  img
+    box-sizing: border-box
+  input[type="file"]
+    display: none
+  .add-icon, .target, .target img
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+  .add-icon
+    border: dashed 1px #aaa
+    border-radius: 4px
+  .target
+    &:hover
+      .refresh-icon
+        opacity: 0.3
+    .refresh-icon
+      opacity: 0
+      background: #000
+      transition: opacity 0.3s
+  
