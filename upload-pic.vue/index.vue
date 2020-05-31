@@ -12,5 +12,5 @@
     </div>
   </div>
 </template>
-<style src="./index.styl"></style>
+<style src="./index.styl" scoped lang="styl"></style>
 <script src="./index.js"></script>
